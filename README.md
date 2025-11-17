@@ -1,16 +1,63 @@
-# React + Vite
+🔢 Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish Calculator Application built with React 
+It performs basic arithmetic operations with a clean and responsive UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Addition
 
-## React Compiler
+➖ Subtraction
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✖️ Multiplication
 
-## Expanding the ESLint configuration
+➗ Division
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧹 Clear / Reset button
+
+📱 Fully responsive design
+
+🛠️ Tech Stack
+
+React (or plain HTML/CSS/JS — change if needed)
+
+JavaScript (ES6+)
+
+CSS         
+ 
+
+  
+   
+# Clone the repo
+git clone https://monika755.github.io/Calculator/
+
+# Enter the folder
+cd calculate
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+    
+
+
+📁 Project Structure
+src/
+ ├── components/
+ │    ├── Button.jsx 
+      ├── ButtonPanel.jsx 
+      ├── ThemeSwitcher.jsx
+ │    └── Display.jsx
+ ├── App.jsx
+ ├── main.jsx.js
+ ├── App.css
+
+
+
+
+🔮 Future Improvements
+
+🌓 Dark / Light mode
+
+➗ Percentage button
